@@ -8,6 +8,9 @@
 </head>
 <body>
 <h1>Welcome to Servlets</h1>
-<a href="hello">Go to Hello Servlet</a>
-</body>
+<form action="hello" method="post">
+Username: <input type="text" name="username" placeholder="Enter your username"/><br>
+Password: <input type="password" name="password" placeholder="Enter your password"/><br>
+<input type="submit" value="Login"/>
+</form></body>
 </html>
